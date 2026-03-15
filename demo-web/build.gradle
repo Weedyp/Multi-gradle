@@ -11,7 +11,6 @@ dependencies {
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 }
 
-// Ensure the WAR task is configured for your external Tomcat
 war {
     archiveFileName = 'demo.war'
 }
